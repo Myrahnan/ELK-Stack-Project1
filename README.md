@@ -78,7 +78,7 @@ Web-1, Web-2, and Elk-VM allowed says 10.0.0.4 as this is IP of jumpbox provisio
 ### Elk Configuration
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because Ansible can quickly and easily configure and deploy new machines on multiple servers simultaneously. 
-#: What is the main advantage of automating configuration with Ansible? The automation of ansible simplifies complex tasks and allows developers to focus attention on something less efficient. 
+: What is the main advantage of automating configuration with Ansible? The automation of ansible simplifies complex tasks and allows developers to focus attention on something less efficient. 
 
 The playbook implements the following tasks:
 - # Elk Configuration:
