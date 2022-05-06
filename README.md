@@ -51,7 +51,7 @@ The configuration details of each machine may be found below:
 | JumpBox  | Gateway      | 10.0.0.4       | Linux                |
 | Web-1    | Web-server   | 10.0.0.6       | Linux                |
 | Web-2    | Web-server   | 10.0.0.7       | Linux                |
-| Elk-VM   | Kibana       | 10.1.0.5       | Linux                |
+| Elk-VM   | Monitoring   | 10.1.0.5       | Linux                |
 
 
 ### Access Policies
