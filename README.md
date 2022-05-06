@@ -59,7 +59,7 @@ The configuration details of each machine may be found below:
 The machines on the internal network are not exposed to the public Internet.
 
 Only the JumpBox machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
-- 20.89.129.227
+- My computer's public IP address of 96.240.138.68
 
 Machines within the network can only be accessed through SSHing from the JumpBox.
 - Which machine did you allow to access your ELK VM? What was its IP address? I allowed the Jump-Box VM to access the ELK VM which has an IP of 10.0.0.4 and public IP of 20.210.91.34. Also allowed to connect through TCP 5601 which is how we connected to Kibana. 
