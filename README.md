@@ -67,7 +67,7 @@ Machines within the network can only be accessed through SSHing from the JumpBox
 A summary of the access policies in place can be found in the table below.
 | **Name** | **Publicly Accessible** | **Allowed IP Address**     |
 |----------|-------------------------|----------------------------|
-| JumpBox  | Yes                     | 10.0.0.4                   |
+| JumpBox  | Yes                     | 96.240.138.68              |
 | Web-1    | No                      | 10.0.0.4                   |
 | Web-2    | No                      | 10.0.0.4                   |
 | Elk-VM   | No                      | 10.0.0.4 and TCP with 5601 |
