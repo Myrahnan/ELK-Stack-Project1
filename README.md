@@ -92,8 +92,10 @@ I then created a peer connection between my vNets. This will allow traffic to pa
 
 ![Elk Vnet peer](https://user-images.githubusercontent.com/104738434/166584982-226a1315-65b7-445b-adf4-134472e2ddeb.jpg)
 
-Next I created a new virtual machine named Elk-VM. Once created, I opened up a terminal and SSH into the jumpbox. From the jumpbox login shell I ran the required Docker commands to start and attach to my ansible container. (sudo docker start –name of container- && sudo docker attach –name of container–). I then used cat command to retrieve my public ssh key. 
-I verified the new VM in Azure was working by connecting via SSH from the Ansible container onto my jumbox VM
+Next, I created a new virtual machine named Elk-VM. Once created, I opened up a terminal and SSH into the jumpbox. From the jumpbox login shell I ran the required Docker commands to start and attach to my ansible container. (sudo docker start –name of container- && sudo docker attach –name of container–). I then used cat command to retrieve my public ssh key. 
+
+I verified the new VM in Azure was working by connecting via SSH from the Ansible container onto my jumbox VM.
+
 From my ansible container I added the new VM to the Ansible’s hosts file, created a playbook that installs Docker and configures the container, and ran the playbook to launch the container. 
 
 ![_etc_ansible_hosts](https://user-images.githubusercontent.com/104738434/166585191-94b5c8bd-5b48-42df-86c0-c00bd1a277a9.jpg)
