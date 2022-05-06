@@ -32,7 +32,7 @@ The main purpose of this network is to expose a load-balanced and monitored inst
 Load balancing ensures that the application will be highly available and reliable, in addition to restricting access to the network.
 - What aspect of security do load balancers protect? 
 
-According to lumecloud.com a load balancer distributes traffic from clients across the use of multiple servers. It provides additional security as it is between the client and the server. Load balancing protects applications from emerging threats through the use of a Web Application Firewall. This helps to protect the website which the client is using from potential hackers. Load balancers can also request a username and password before granting access to a website which protects against unwanted login attempts. They can also help to protect against DDos attacks. 
+A load balancer distributes traffic from clients across the use of multiple servers. It provides additional security as it is between the client and the server. Load balancing protects applications from emerging threats through the use of a Web Application Firewall. This helps to protect the website which the client is using from potential hackers. Load balancers can also request a username and password before granting access to a website which protects against unwanted login attempts. They can also help to protect against DDos attacks. 
 
 
 - What is the advantage of a jump box?
