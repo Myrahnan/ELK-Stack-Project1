@@ -65,7 +65,7 @@ Machines within the network can only be accessed through SSHing from the JumpBox
 - Which machine did you allow to access your ELK VM? What was its IP address? I allowed the Jump-Box VM to access the ELK VM which has an IP of 10.0.0.4 and public IP of 20.210.91.34. Also allowed to connect through TCP 5601 which is how we connected to Kibana. 
 
 A summary of the access policies in place can be found in the table below.
-| **Name** | **Publicly Accessible** | **Allowed IP Address**    |
+| **Name** | **Publicly Accessible** | **Allowed IP Address**     |
 |----------|-------------------------|----------------------------|
 | JumpBox  | Yes                     | 10.0.0.4                   |
 | Web-1    | No                      | 10.0.0.4                   |
